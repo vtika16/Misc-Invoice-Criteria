@@ -1,3 +1,5 @@
+## Access Query Logic##
+
 ##identify credit devices##
 UPDATE [Misc Invoice Monthly Data] INNER JOIN [Misc Invoice Total] 
 ON [Misc Invoice Monthly Data].SubLease_Lease_Number = [Misc Invoice Total].SubLease_Lease_Number SET [Misc Invoice Monthly Data].[Credit (Y/N)] = "Yes", 
