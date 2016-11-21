@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CCP T1 11.2.16.xlsx
+Table=`Daily CCP Tranche A$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Masterlease_Tranche_Number" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="MasterLease_Schedule_Number" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Sublease_Lease_Number" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="MLS_Invoice_Disposition" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Credit_Flag" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Prev_Misc_Disposition" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Prev_Misc_Invoice_Date" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Date" />
+            <Field name="Prev_Misc_Device_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Upgrade_Exchange_IND" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Puerto_Rico_IND" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="MasterLease_Lease_Term" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Master_Lease_Maximum_Expiration_Month" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Date" />
+            <Field name="SubLease_Lease_Term" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SubLease_Handset_Model_Name" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="SubLease_Expiration_Month" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Date" />
+            <Field name="Lease_Status" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Lease_Status_Reason" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Lease_Event_Category" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Lease_Event" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Days_Since_Current_Status" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Days_Range_Since_Current_Status" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Serial_at_Closing" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Serial_at_Receipt" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Warehouse_Rcpt" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Warehouse_Receipt_Date" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Date" />
+            <Field name="Warehouse_Receipt_Month" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Warehouse_Grade_Status" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Warehouse Graded Date" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Date" />
+            <Field name="Warehouse_Grade" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="WriteOff_Date" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Date" />
+            <Field name="MLS_Monthly_Rent_at_Closing" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="MLS_Final_Rent_at_Closing" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_Billed_Accelerated_Adjustments" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_Acceleration_Percent_Paid" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_Acceleration_Percent_Adjusted" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_Acceleration_Percent_PaidAdjusted" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_End_of_Lease_Purchase_Cost" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_PPO_Adjustments" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_PPO_Percent_Paid" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_PPO_Percent_Adjusted" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_PPO_Percent_PaidAdjusted&#xA;" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_Billed_Damage_Charges" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="MLS_Standard_Rent_Billed_Months" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="MLS_Standard_Rent_Unbilled_Months" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="MLS_Excess_Rent_Billed_Months" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Percent_Rent_PaidAdj_Bucket" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Percent_Rent_Paid_Bucket" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Percent_PPO_PaidAdj_Bucket" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Percent_PPO_Paid_Bucket" size="255" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="V_String" />
+            <Field name="Months_Since_Current_Status" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_PPO_Prcnt_Paid" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="SPT_Collected_Damage_Fee" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Capitalized_Cost_Reduction" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Renewal_Payments_Collected" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Collected_Renewa_Payments_Minus_Tax" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Excess_Rent_Total" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Post_Excess_Billed_Historical" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Post_Excess_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Renewal_Payments_Billed_Current" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Damage_Device_Fee" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Masterlease_Device_Residual_Value_at_Closing" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="End_of_Lease_Purchase_Cost" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="BStock_Price" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Rent_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Gross_Device_Fee&#xA;" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Renewal_Device_Credits" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Customer_Net_Device_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Sprint_Net_Device_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Total_Net_Device_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+            <Field name="Payment_Amount_Due" source="File: C:\Users\vtika\Documents\CCP T1 11.2.16.xlsx|`Daily CCP Tranche A$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Misc Invoice Treatment" type="String" size="64" expression="IF [Warehouse Graded Date] &gt;= '2016-10-01' &#xA;AND [Warehouse Graded Date] &lt;= '2016-11-02' &#xA;AND ([Warehouse_Grade] = 'A' &#xA;OR [Warehouse_Grade] = 'B' &#xA;OR [Warehouse_Grade] = 'C') &#xA;AND [Credit_Flag] = 0&#xA;THEN 'Received - Qualified'&#xA;&#xA;ELSEIF [Warehouse Graded Date] &gt;= '2016-10-01' &#xA;AND [Warehouse Graded Date] &lt;= '2016-11-02' &#xA;AND ([Warehouse_Grade] = 'D' &#xA;OR [Warehouse_Grade] = 'E' &#xA;OR [Warehouse_Grade] = 'BER') &#xA;AND [Credit_Flag] = 0&#xA;THEN 'Received - Not Qualified'&#xA;&#xA;ELSEIF !IsEmpty([WriteOff_Date])&#xA;AND [Master_Lease_Maximum_Expiration_Month] &lt; DateTimeToday()&#xA;THEN 'Write Off'&#xA;&#xA;ELSEIF [Puerto_Rico_IND] = 0 &#xA;AND Contains([Lease_Event], 'Purchase') &#xA;AND [SPT_PPO_Percent_PaidAdjusted&#xA;] &gt;= 1&#xA;AND IsEmpty([Warehouse_Receipt_Date]) &#xA;THEN 'PPO'&#xA;&#xA;ELSEIF [Puerto_Rico_IND] = 0 &#xA;AND IsEmpty([Warehouse_Receipt_Date]) &#xA;AND Contains([Percent_PPO_Paid_Bucket], '100%+') &#xA;AND (Contains([Lease_Status], 'Closed') &#xA;OR Contains([Lease_Status], 'Cancelled')) &#xA;THEN 'PPO'&#xA;&#xA;ELSEIF [Months_Since_Current_Status] &gt; 1&#xA;AND (!Contains([Lease_Event], 'Ownership')&#xA;AND !Contains([Lease_Event], 'Collections')&#xA;AND !Contains([Lease_Event], 'Purchase')&#xA;AND !Contains([Lease_Event], 'Fraud')&#xA;AND !Contains([Lease_Event], 'Military')&#xA;AND !Contains([Lease_Event], 'Return Confirmed'))&#xA;AND IsEmpty([Warehouse_Receipt_Date])&#xA;AND isEmpty([WriteOff_Date])&#xA;THEN 'Non-Receipt from Customer'&#xA;&#xA;ELSEIF [Months_Since_Current_Status] &gt; 1&#xA;AND (!Contains([Lease_Event], 'Ownership')&#xA;AND !Contains([Lease_Event], 'Collections')&#xA;AND !Contains([Lease_Event], 'Purchase')&#xA;AND !Contains([Lease_Event], 'Fraud')&#xA;AND !Contains([Lease_Event], 'Military'))&#xA;AND Contains([Lease_Event], 'Return Confirm')&#xA;AND IsEmpty([Warehouse_Receipt_Date])&#xA;AND isEmpty([WriteOff_Date])&#xA;THEN 'Non-Receipt from Sprint'&#xA;&#xA;ELSEIF [Months_Since_Current_Status] &gt; 1&#xA;AND IsEmpty([Warehouse_Receipt_Date])&#xA;AND Contains([Lease_Event], 'Ownership')&#xA;AND (Contains([Lease_Status], 'Closed') &#xA;OR Contains([Lease_Status], 'Cancelled'))&#xA;THEN 'Change of Ownership'&#xA;&#xA;ELSEIF IsEmpty([Warehouse_Receipt_Date])&#xA;AND Contains([Lease_Event], 'Military')&#xA;AND [Puerto_Rico_IND] = 0&#xA;THEN 'Military'&#xA;&#xA;ELSEIF IsEmpty([Warehouse_Receipt_Date])&#xA;AND Contains([Lease_Event], 'Fraud')&#xA;AND [Puerto_Rico_IND] = 0&#xA;THEN 'Fraud'&#xA;&#xA;ELSE 'NULL'&#xA;&#xA;ENDIF" />
+            <FormulaField field="Rent Amount Due" type="Double" size="8" expression="IF [MLS_Standard_Rent_Unbilled_Months] &gt; 1&#xA;THEN (([MLS_Monthly_Rent_at_Closing] - 1) *[MLS_Standard_Rent_Unbilled_Months]) + [MLS_Final_Rent_at_Closing]&#xA;&#xA;ELSEIF [MLS_Standard_Rent_Unbilled_Months] = 1&#xA;THEN [MLS_Final_Rent_at_Closing]&#xA;&#xA;ELSEIF [MLS_Standard_Rent_Unbilled_Months] = 0 &#xA;AND [Post_Excess_Amount_Due] &gt; 0&#xA;THEN [Post_Excess_Amount_Due]&#xA;&#xA;ELSE 0&#xA;&#xA;ENDIF" />
+            <FormulaField field="Gross Device Fee" type="Double" size="8" expression="IF Contains([Misc Invoice Treatment], 'from Sprint')&#xA;THEN [BStock_Price]&#xA;&#xA;ELSEIF Contains([Misc Invoice Treatment], 'PPO')&#xA;THEN [SPT_End_of_Lease_Purchase_Cost]&#xA;&#xA;ELSE [Masterlease_Device_Residual_Value_at_Closing]&#xA;&#xA;ENDIF" />
+            <FormulaField field="Customer Device Amount Due" type="Double" size="8" expression="IF [Damage_Device_Fee] &gt; 0 &#xA;THEN [Damage_Device_Fee]&#xA;ELSE 0 &#xA;ENDIF&#xA;" />
+            <FormulaField field="Device Value Before DDF" type="Double" size="8" expression="IF [Gross Device Fee] - [Renewal_Device_Credits] &gt; 0 &#xA;THEN [Gross Device Fee] - [Renewal_Device_Credits]&#xA;ELSE 0&#xA;ENDIF&#xA;" />
+            <FormulaField field="Device Value after DDF" type="Double" size="8" expression="IF [Device Value Before DDF] - [Customer Device Amount Due] &gt; 0&#xA;THEN [Device Value Before DDF] - [Customer Device Amount Due]&#xA;ELSE 0 &#xA;ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Misc Invoice Treatment=IF [Warehouse Graded Date] &gt;= '2016-10...
+Rent Amount Due=IF [MLS_Standard_Rent_Unbilled_Months] &gt; 1
+TH...
+Gross Device Fee=IF Contains([Misc Invoice Treatment], 'from ...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Misc Invoice Treatment" action="GroupBy" rename="Miscellaneous Invoice treatment" />
+            <SummarizeField field="Misc Invoice Treatment" action="Count" rename="Leases" />
+            <SummarizeField field="Payment_Amount_Due" action="Sum" rename="Payment Amount Due" />
+            <SummarizeField field="Rent Amount Due" action="Sum" rename="Accelerated Rent" />
+            <SummarizeField field="Gross Device Fee" action="Sum" rename="Sum_Gross Device Fee" />
+            <SummarizeField field="Customer Device Amount Due" action="Sum" rename="Sum_Customer Device Amount Due" />
+            <SummarizeField field="Device Value Before DDF" action="Sum" rename="Sum_Device Value Before DDF" />
+            <SummarizeField field="Device Value after DDF" action="Sum" rename="Sum_Device Value after DDF" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="BStock_Price" selected="True" />
+            <SelectField field="Capitalized_Cost_Reduction" selected="False" />
+            <SelectField field="Collected_Renewa_Payments_Minus_Tax" selected="False" />
+            <SelectField field="Credit_Flag" selected="True" />
+            <SelectField field="Customer_Net_Device_Amount_Due" selected="True" />
+            <SelectField field="Damage_Device_Fee" selected="True" />
+            <SelectField field="Days_Range_Since_Current_Status" selected="False" />
+            <SelectField field="Days_Since_Current_Status" selected="False" />
+            <SelectField field="End_of_Lease_Purchase_Cost" selected="True" />
+            <SelectField field="Excess_Rent_Total" selected="False" />
+            <SelectField field="Gross_Device_Fee&#xA;" selected="False" />
+            <SelectField field="Lease_Event" selected="True" />
+            <SelectField field="Lease_Event_Category" selected="False" />
+            <SelectField field="Lease_Status" selected="True" />
+            <SelectField field="Lease_Status_Reason" selected="False" />
+            <SelectField field="Master_Lease_Maximum_Expiration_Month" selected="True" />
+            <SelectField field="Masterlease_Device_Residual_Value_at_Closing" selected="True" />
+            <SelectField field="MasterLease_Lease_Term" selected="False" />
+            <SelectField field="MasterLease_Schedule_Number" selected="False" />
+            <SelectField field="Masterlease_Tranche_Number" selected="False" />
+            <SelectField field="MLS_Excess_Rent_Billed_Months" selected="True" />
+            <SelectField field="MLS_Final_Rent_at_Closing" selected="True" />
+            <SelectField field="MLS_Invoice_Disposition" selected="False" />
+            <SelectField field="MLS_Monthly_Rent_at_Closing" selected="True" />
+            <SelectField field="MLS_Standard_Rent_Billed_Months" selected="True" />
+            <SelectField field="MLS_Standard_Rent_Unbilled_Months" selected="True" />
+            <SelectField field="Months_Since_Current_Status" selected="True" />
+            <SelectField field="Payment_Amount_Due" selected="True" />
+            <SelectField field="Percent_PPO_Paid_Bucket" selected="True" />
+            <SelectField field="Percent_PPO_PaidAdj_Bucket" selected="True" />
+            <SelectField field="Percent_Rent_Paid_Bucket" selected="True" />
+            <SelectField field="Percent_Rent_PaidAdj_Bucket" selected="True" />
+            <SelectField field="Post_Excess_Amount_Due" selected="True" />
+            <SelectField field="Post_Excess_Billed_Historical" selected="False" />
+            <SelectField field="Prev_Misc_Device_Amount_Due" selected="False" />
+            <SelectField field="Prev_Misc_Disposition" selected="False" />
+            <SelectField field="Prev_Misc_Invoice_Date" selected="False" />
+            <SelectField field="Puerto_Rico_IND" selected="True" />
+            <SelectField field="Renewal_Device_Credits" selected="True" />
+            <SelectField field="Renewal_Payments_Billed_Current" selected="False" />
+            <SelectField field="Renewal_Payments_Collected" selected="False" />
+            <SelectField field="Rent_Amount_Due" selected="True" />
+            <SelectField field="Serial_at_Closing" selected="False" />
+            <SelectField field="Serial_at_Receipt" selected="False" />
+            <SelectField field="Sprint_Net_Device_Amount_Due" selected="True" />
+            <SelectField field="SPT_Acceleration_Percent_Adjusted" selected="True" />
+            <SelectField field="SPT_Acceleration_Percent_Paid" selected="False" />
+            <SelectField field="SPT_Acceleration_Percent_PaidAdjusted" selected="True" />
+            <SelectField field="SPT_Billed_Accelerated_Adjustments" selected="False" />
+            <SelectField field="SPT_Billed_Damage_Charges" selected="False" />
+            <SelectField field="SPT_Collected_Damage_Fee" selected="False" />
+            <SelectField field="SPT_End_of_Lease_Purchase_Cost" selected="True" />
+            <SelectField field="SPT_PPO_Adjustments" selected="False" />
+            <SelectField field="SPT_PPO_Percent_Adjusted" selected="False" />
+            <SelectField field="SPT_PPO_Percent_Paid" selected="True" />
+            <SelectField field="SPT_PPO_Percent_PaidAdjusted&#xA;" selected="True" />
+            <SelectField field="SPT_PPO_Prcnt_Paid" selected="False" />
+            <SelectField field="SubLease_Expiration_Month" selected="False" />
+            <SelectField field="SubLease_Handset_Model_Name" selected="False" />
+            <SelectField field="Sublease_Lease_Number" selected="False" />
+            <SelectField field="SubLease_Lease_Term" selected="False" />
+            <SelectField field="Total_Net_Device_Amount_Due" selected="True" />
+            <SelectField field="Upgrade_Exchange_IND" selected="False" />
+            <SelectField field="Warehouse Graded Date" selected="True" />
+            <SelectField field="Warehouse_Grade" selected="True" />
+            <SelectField field="Warehouse_Grade_Status" selected="False" />
+            <SelectField field="Warehouse_Rcpt" selected="False" />
+            <SelectField field="Warehouse_Receipt_Date" selected="True" />
+            <SelectField field="Warehouse_Receipt_Month" selected="False" />
+            <SelectField field="WriteOff_Date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Misc Invoice T1 2016.11.xlsx
+Table=`Series 1 MiscInvoice$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F2" size="1550" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F3" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F4" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F5" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F6" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F7" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F8" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F9" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F10" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="2016.11.02" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="F12" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F13" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F14" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F15" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F16" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F17" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F18" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F19" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F20" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F21" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="F22" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="F1" selected="True" />
+            <SelectField field="F2" selected="True" />
+            <SelectField field="F3" selected="True" />
+            <SelectField field="F4" selected="True" />
+            <SelectField field="F5" selected="True" />
+            <SelectField field="F6" selected="True" />
+            <SelectField field="F7" selected="True" />
+            <SelectField field="F8" selected="True" />
+            <SelectField field="F9" selected="True" />
+            <SelectField field="F10" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="234" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>Skip</Mode>
+          <N>8</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 8</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="330" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F1" />
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_11" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="Double" />
+            <Field name="Invoice Description" size="1550" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Leases" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Accelerated Rent" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Gross Device Fee" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Less Renewal Device Credits" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Total Device Fee " size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Customer Damaged Device Fee" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Sprint Device Fee" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+            <Field name="Total Amount Due" size="255" source="File: H:\Operations\1.Operations\Invoices - Series 1\Invoice - Misc Invoice\October 16\Misc Invoice T1 2016.11.xlsx|`Series 1 MiscInvoice$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="618" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Field_11" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Order" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="Left_Invoice Description" selected="True" />
+                <SelectField field="Left_Accelerated Rent" selected="True" type="Double" size="8" />
+                <SelectField field="Left_Total Amount Due" selected="True" type="Double" size="8" />
+                <SelectField field="Left_Total Device Fee " selected="False" type="Double" size="8" />
+                <SelectField field="Left_Gross Device Fee" selected="True" type="Double" size="8" />
+                <SelectField field="Left_Less Renewal Device Credits" selected="False" type="Double" size="8" />
+                <SelectField field="Left_Sprint Device Fee" selected="True" type="Double" size="8" />
+                <SelectField field="Left_Customer Damaged Device Fee" selected="True" type="Double" size="8" />
+                <SelectField field="Right_Miscellaneous Invoice treatment" selected="True" />
+                <SelectField field="Left_Leases" selected="True" type="Double" size="8" />
+                <SelectField field="Right_Leases" selected="True" rename="Right_Leases" />
+                <SelectField field="Right_Sum_Gross Device Fee" selected="True" />
+                <SelectField field="Right_Accelerated Rent" selected="True" rename="Right_Accelerated Rent" />
+                <SelectField field="Right_Payment Amount Due" selected="True" />
+                <SelectField field="Right_Sum_Customer Device Amount Due" selected="True" />
+                <SelectField field="Left_Field_11" selected="True" />
+                <SelectField field="Right_Sum_Device Value after DDF" selected="True" />
+                <SelectField field="Right_Sum_Device Value Before DDF" selected="True" />
+                <SelectField field="Right_Order" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="366" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Miscellaneous Invoice treatment" />
+            <Field name="Order" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Change of Ownership</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Military</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Non-Receipt from Customer</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Non-Receipt from Sprint</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>PPO</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Received - Not Qualified</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Received - Qualified</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Write Off</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Fraud</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>Non-Like-Kind-Exchange</c>
+              <c>9</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="462" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Miscellaneous Invoice treatment" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Miscellaneous Invoice treatment" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Miscellaneous Invoice treatment" selected="False" rename="Right_Miscellaneous Invoice treatment" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="750" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Leases] = [Right_Leases]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Leases] = [Right_Leases]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="750" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Gross Device Fee] = [Sum_Gross Device Fee]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Gross Device Fee] = [Sum_Gross Device Fee]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="29" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Join" />
+      <Destination ToolID="27" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Invoicing criteria flow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
